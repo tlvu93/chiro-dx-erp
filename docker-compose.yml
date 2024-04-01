@@ -1,0 +1,20 @@
+services:
+  postgres:
+    extends:
+      file: ./backend/hasura/docker-compose.yml
+      service: postgres
+  graphql-engine:
+    extends:
+      file: ./backend/hasura/docker-compose.yml
+      service: graphql-engine
+  data-connector-agent:
+    extends:
+      file: ./backend/hasura/docker-compose.yml
+      service: data-connector-agent
+
+  frontend:
+    extends:
+      file: ./frontend/docker-compose.yml
+      service: frontend
+volumes:
+  db_data:

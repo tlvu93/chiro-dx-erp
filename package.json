@@ -1,0 +1,12 @@
+{
+  "name": "chiro-dx-erp",
+  "version": "1.0.0",
+  "description": "ERP and CRM system for ChiroDX",
+  "main": "index.js",
+  "scripts": {
+    "dev": "docker-compose up",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rakkidi",
+  "license": "ISC"
+}
