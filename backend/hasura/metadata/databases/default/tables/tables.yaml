@@ -1,1 +1,12 @@
-[]
+- "!include public_contact_details.yaml"
+- "!include public_contacts.yaml"
+- "!include public_customers.yaml"
+- "!include public_employees.yaml"
+- "!include public_industry_branch.yaml"
+- "!include public_orders.yaml"
+- "!include public_payment_method.yaml"
+- "!include public_payments.yaml"
+- "!include public_products.yaml"
+- "!include public_relationship_types.yaml"
+- "!include public_suppliers.yaml"
+- "!include public_users.yaml"
