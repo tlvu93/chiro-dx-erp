@@ -7,12 +7,6 @@ services:
     extends:
       file: ./backend/hasura/docker-compose.yml
       service: graphql-engine
-  # Unused service: enable if needed
-  # data-connector-agent:
-  #   extends:
-  #     file: ./backend/hasura/docker-compose.yml
-  #     service: data-connector-agent
-
   frontend:
     extends:
       file: ./frontend/docker-compose.yml
